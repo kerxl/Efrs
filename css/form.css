@@ -1,0 +1,94 @@
+footer {
+	padding-top: 3em;
+}
+
+form {
+	border: 1px solid #123;
+	border-radius: 15px;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+.caption {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em 0 2em 0;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+input, textarea {
+	border: none;
+	border-radius: 15px;
+	border-bottom: 1px solid #123;
+	width: 100%;
+	padding: 0.1em 0.5em;
+	margin-bottom: 2em;
+
+	transition:  0.5s;
+}
+
+#name {
+	border: none;
+	border-top: 1px solid #123;
+}
+
+.sendBtn {
+	text-align: center;
+}
+
+.footBar { border-top: 1px solid #123; }
+
+.footBar-list_item { display: block; }
+
+.footBar-list_item > a {
+	color: #123;
+	text-decoration: none;
+}
+
+.footBar-list_item > a:hover {
+	border-bottom: 1px solid #123;
+}
+
+#sendForm {
+	background: #123;
+	width: 25%;
+	color: #fff;
+}
+
+#sendForm:hover {
+	padding: 0.3em;
+	width: 50%;
+	background: #345;
+}
+
+textarea { border: 1px solid #123; }
+
+input:focus,
+textarea:focus,
+#name:focus {
+	outline: none;
+	border: 3px solid #345;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: rgba(1, 2, 3, 0.5);
+	font-weight: lighter;
+	padding-left: 0.5em;
+	font-size: 13px;
+}
+
+@media (max-width: 425px) {
+	#sendForm {
+		font-size: 14px;
+		padding: 0.5em;
+		width: 50%;
+	}
+
+	.footBar-list { padding: 0; }
+	.footBar-list_item > a { font-size: 14px; }
+}

@@ -1,0 +1,77 @@
+* {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color:  #000;
+	font-weight: normal;
+}
+
+body { padding-top: 63px; }
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: underline;
+}
+
+.container-fluid { width: 80%; }
+
+.brand {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.nav-link { font-size: 0.8em; }
+table { width: 100%; }
+
+.oci-photo, .oci-description
+{ padding: 3em 3em 0 3em; }
+
+.oci-photo_img { border-radius: 15%; }
+
+.ocid-table th { font-weight: bold; }
+
+.ocid-table td, .ocid-table p { font-size: 0.8em; }
+
+.generalRow {
+	border-bottom: 2px solid #000;
+	padding: 2em 0;
+}
+
+.innerRow { padding: 0.5em 0; }
+
+.achievements-personPhoto {
+	text-align: center;
+	border-right: 1px solid #000;
+}
+
+.ap_img {
+	border-radius: 15%;
+	border: 2px solid #111;
+}
+
+@media (max-width: 768px) {
+	.oci-photo, .oci-description
+	{ padding: 2em 2em 0 2em; }
+
+	.ocid-table th, .ocid-table td
+	{ font-size: 16px; }
+
+	h1 { font-size: 24px; }
+} 
+
+@media (max-width: 425px) {
+	.oci-photo, .oci-description
+	{ padding: 1em 1em 0 1em; }
+
+	.ocid-table th, .ocid-table td, .ocid-table p
+	{ font-size: 14px; }
+
+	.ap_img { width: 200px; }
+
+	.achievements-personPhoto {
+		border-right: none;
+		padding-bottom: 2em;
+	}
+
+	.al_description { font-size: 16px; }
+}

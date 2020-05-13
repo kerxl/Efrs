@@ -1,0 +1,59 @@
+* {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color:  #000;
+	font-weight: normal;
+}
+
+body { padding-top: 63px; }
+
+h1 {
+	font-weight: bold;
+	text-decoration: underline;
+	border: 1px solid #123;
+	padding: 1em;
+	margin: 0;
+}
+.nav-link { font-size: 0.8em; }
+
+p {
+	text-indent:  20px;
+	text-align: left;
+	border: 1px solid #123;
+	border-radius: 15px;
+	margin: 0;
+	padding: 1em;
+	margin: 0.2em;
+}
+
+.ul { display: block; padding-left: 2em; }
+
+.container-fluid { width: 80%; }
+
+.brand {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.history { text-align: center; }
+
+.author {
+	display: block;
+	text-align: right;
+	margin: 0.2em 0 3em 0;
+}
+
+@media (max-width: 768px) {
+	h1 { font-size: 22px; }
+	p, span, b, em { font-size: 14px; }
+}
+
+@media (max-width: 425px) {
+	h1 { font-size: 20px; }
+	p, span, b, em { font-size: 12px; }
+}
+
+@media (max-width: 375px) {
+	h1 { font-size: 16px; }
+	p, span, b, em { font-size: 10px; }
+}
